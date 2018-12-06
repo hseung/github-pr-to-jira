@@ -1,7 +1,7 @@
 {
   "name": "Open Jira card from Github PR",
   "description" : "For Buzzvill Devs",
-  "version": "1.0",
+  "version": "1.1",
   "browser_action": {
     "defaut_title": "Open new tab of equivilant Jira card",
     "default_icon": "jira.png"
