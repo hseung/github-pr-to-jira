@@ -3,15 +3,21 @@
   "description" : "For Buzzvill Devs",
   "version": "1.0",
   "browser_action": {
-  	"defaut_title": "Open new tab of equivilant Jira card",
+    "defaut_title": "Open new tab of equivilant Jira card",
     "default_icon": "jira.png"
   },
   "manifest_version": 2,
   "permissions": [
-        "activeTab"
-    ],
+    "activeTab"
+  ],
   "background": {
-        "scripts": ["background.js"],
-		"persistent": false
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["autolink.js"]
     }
+  ]
 }
