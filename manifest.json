@@ -6,7 +6,7 @@
     "defaut_title": "Open new tab of equivilant Jira card",
     "default_icon": "jira.png"
   },
-  "manifest_version": 2,
+  "manifest_version": 3,
   "permissions": [
     "activeTab"
   ],
